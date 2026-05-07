@@ -1,0 +1,4 @@
+source;share/alicia_d_calibration/local_setup.bash
+source;share/alicia_d_calibration/local_setup.dsv
+source;share/alicia_d_calibration/local_setup.sh
+source;share/alicia_d_calibration/local_setup.zsh

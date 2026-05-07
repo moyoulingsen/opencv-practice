@@ -1,0 +1,54 @@
+[ 25%] Built target serial_communicator_lib
+[ 50%] Built target alicia_d_data_parser_control_lib
+[ 75%] Built target alicia_d_driver_node
+[ 87%] [32mBuilding CXX object CMakeFiles/alicia_d_hardware_interface.dir/src/alicia_d_hardware_interface.cpp.o[0m
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual alicia_d_driver::CallbackReturn alicia_d_driver::AliciaDHardwareInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:15:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use on_init(const HardwareComponentInterfaceParams & params) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   15 |   if ([01;35m[Khardware_interface::SystemInterface::on_init(info)[m[K != CallbackReturn::SUCCESS)
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/system_interface.hpp:18[m[K,
+                 from [01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/include/alicia_d_driver/alicia_d_hardware_interface.hpp:11[m[K,
+                 from [01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:1[m[K:
+[01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/hardware_component_interface.hpp:140:26:[m[K [01;36m[Knote: [m[Kdeclared here
+  140 |   virtual CallbackReturn [01;36m[Kon_init[m[K(const HardwareInfo & hardware_info);
+      |                          [01;36m[K^~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library libalicia_d_hardware_interface.so[0m
+[100%] Built target alicia_d_hardware_interface
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver//alicia_d_driver.xml
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/include/alicia_d_driver/alicia_d_driver/alicia_d_data_parser_control.hpp
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/include/alicia_d_driver/alicia_d_driver/alicia_d_driver_node.hpp
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/include/alicia_d_driver/alicia_d_driver/alicia_d_hardware_interface.hpp
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/include/alicia_d_driver/alicia_d_driver/serial_communicator.hpp
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/alicia_d_driver.launch.py
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/alicia_d_driver.xml
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/lib/alicia_d_driver/alicia_d_driver_node
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/environment/library_path.sh
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/environment/library_path.dsv
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/ament_index/resource_index/package_run_dependencies/alicia_d_driver
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/ament_index/resource_index/parent_prefix_path/alicia_d_driver
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/environment/ament_prefix_path.sh
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/environment/ament_prefix_path.dsv
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/environment/path.sh
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/environment/path.dsv
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/local_setup.bash
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/local_setup.sh
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/local_setup.zsh
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/local_setup.dsv
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/package.dsv
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/ament_index/resource_index/packages/alicia_d_driver
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/alicia_d_driver
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/cmake/alicia_d_driverConfig.cmake
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/cmake/alicia_d_driverConfig-version.cmake
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/package.xml
+-- Installing: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/lib/libalicia_d_hardware_interface.so
+-- Set non-toolchain portion of runtime path of "/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/lib/libalicia_d_hardware_interface.so" to ""
+-- Installing: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/lib/libserial_communicator_lib.so
+-- Set non-toolchain portion of runtime path of "/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/lib/libserial_communicator_lib.so" to ""
+-- Installing: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/lib/libalicia_d_data_parser_control_lib.so
+-- Set non-toolchain portion of runtime path of "/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/lib/libalicia_d_data_parser_control_lib.so" to ""
+-- Installing: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/cmake/export_alicia_d_driverExport.cmake
+-- Installing: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/cmake/export_alicia_d_driverExport-noconfig.cmake

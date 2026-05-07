@@ -1,0 +1,5 @@
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/lib/libalicia_d_hardware_interface.so
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/lib/libserial_communicator_lib.so
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/lib/libalicia_d_data_parser_control_lib.so
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/cmake/export_alicia_d_driverExport.cmake
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/cmake/export_alicia_d_driverExport-noconfig.cmake

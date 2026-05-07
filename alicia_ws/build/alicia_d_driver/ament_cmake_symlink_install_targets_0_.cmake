@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_driver/alicia_d_driver_node" "TARGETS" "alicia_d_driver_node" "RUNTIME_DESTINATION" "lib/alicia_d_driver")

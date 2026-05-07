@@ -1,0 +1,13 @@
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_driver/CMakeFiles/uninstall.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_driver/CMakeFiles/alicia_d_driver_uninstall.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_driver/CMakeFiles/serial_communicator_lib.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_driver/CMakeFiles/alicia_d_hardware_interface.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_driver/CMakeFiles/alicia_d_data_parser_control_lib.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_driver/CMakeFiles/alicia_d_driver_node.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_driver/CMakeFiles/test.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_driver/CMakeFiles/edit_cache.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_driver/CMakeFiles/rebuild_cache.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_driver/CMakeFiles/list_install_components.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_driver/CMakeFiles/install.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_driver/CMakeFiles/install/local.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_driver/CMakeFiles/install/strip.dir

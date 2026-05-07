@@ -1,0 +1,71 @@
+[0.005s] Invoking command in '/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_moveit': AMENT_PREFIX_PATH=/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver:/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver:/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_moveit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit
+[0.037s] -- The C compiler identification is GNU 13.3.0
+[0.080s] -- The CXX compiler identification is GNU 13.3.0
+[0.093s] -- Detecting C compiler ABI info
+[0.152s] -- Detecting C compiler ABI info - done
+[0.157s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.157s] -- Detecting C compile features
+[0.157s] -- Detecting C compile features - done
+[0.164s] -- Detecting CXX compiler ABI info
+[0.229s] -- Detecting CXX compiler ABI info - done
+[0.234s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.234s] -- Detecting CXX compile features
+[0.234s] -- Detecting CXX compile features - done
+[0.236s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.344s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.382s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.449s] -- Configuring done (0.4s)
+[0.450s] -- Generating done (0.0s)
+[0.451s] -- Build files have been written to: /home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_moveit
+[0.455s] Invoked command in '/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_moveit' returned '0': AMENT_PREFIX_PATH=/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver:/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver:/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_moveit -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit
+[0.455s] Invoking command in '/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_moveit': AMENT_PREFIX_PATH=/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver:/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver:/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_moveit -- -j24 -l24
+[0.479s] Invoked command in '/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_moveit' returned '0': AMENT_PREFIX_PATH=/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver:/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver:/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_moveit -- -j24 -l24
+[0.480s] Invoking command in '/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_moveit': AMENT_PREFIX_PATH=/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver:/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver:/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_moveit
+[0.485s] -- Install configuration: ""
+[0.486s] -- Execute custom install script
+[0.486s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/ament_index/resource_index/package_run_dependencies/alicia_d_moveit
+[0.492s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/ament_index/resource_index/parent_prefix_path/alicia_d_moveit
+[0.499s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/environment/ament_prefix_path.sh
+[0.505s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/environment/ament_prefix_path.dsv
+[0.512s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/environment/path.sh
+[0.518s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/environment/path.dsv
+[0.523s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/local_setup.bash
+[0.529s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/local_setup.sh
+[0.536s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/local_setup.zsh
+[0.542s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/local_setup.dsv
+[0.547s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/package.dsv
+[0.553s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/ament_index/resource_index/packages/alicia_d_moveit
+[0.559s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/cmake/alicia_d_moveitConfig.cmake
+[0.566s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/cmake/alicia_d_moveitConfig-version.cmake
+[0.570s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/package.xml
+[0.577s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/demo.launch.py
+[0.583s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/move_group.launch.py
+[0.588s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/moveit_config_builder.py
+[0.594s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/moveit_rviz.launch.py
+[0.600s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/real_robot.launch.py
+[0.606s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/rsp.launch.py
+[0.611s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/setup_assistant.launch.py
+[0.617s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/spawn_controllers.launch.py
+[0.623s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/static_virtual_joint_tfs.launch.py
+[0.629s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/launch/warehouse_db.launch.py
+[0.636s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/Alicia_D_v5_6_gripper_100mm.srdf
+[0.641s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/Alicia_D_v5_6_gripper_100mm.urdf.xacro
+[0.647s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/Alicia_D_v5_6_gripper_100mm_demo.urdf.xacro
+[0.653s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/Alicia_D_v5_6_gripper_50mm.srdf
+[0.659s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/Alicia_D_v5_6_gripper_50mm.urdf.xacro
+[0.665s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/Alicia_D_v5_6_gripper_50mm_demo.urdf.xacro
+[0.671s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/alicia_d_descriptions.ros2_control.fake.xacro
+[0.677s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/alicia_d_descriptions.ros2_control.xacro
+[0.683s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/alicia_d_descriptions.srdf
+[0.688s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/alicia_d_descriptions.urdf.xacro
+[0.694s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/demo.rviz
+[0.700s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/initial_positions.yaml
+[0.705s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/joint_limits.yaml
+[0.711s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/kinematics.yaml
+[0.717s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/moveit.rviz
+[0.723s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/moveit_controllers.yaml
+[0.729s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/pilz_cartesian_limits.yaml
+[0.735s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/ros2_controllers.yaml
+[0.741s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/config/sensors_3d.yaml
+[0.747s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_moveit/share/alicia_d_moveit/.setup_assistant
+[0.754s] Invoked command in '/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_moveit' returned '0': AMENT_PREFIX_PATH=/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver:/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver:/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_moveit

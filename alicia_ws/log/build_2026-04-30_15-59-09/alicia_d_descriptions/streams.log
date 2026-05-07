@@ -1,0 +1,66 @@
+[0.009s] Invoking command in '/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_descriptions -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions
+[0.073s] -- The C compiler identification is GNU 13.3.0
+[0.103s] -- The CXX compiler identification is GNU 13.3.0
+[0.114s] -- Detecting C compiler ABI info
+[0.169s] -- Detecting C compiler ABI info - done
+[0.176s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.176s] -- Detecting C compile features
+[0.176s] -- Detecting C compile features - done
+[0.183s] -- Detecting CXX compiler ABI info
+[0.244s] -- Detecting CXX compiler ABI info - done
+[0.251s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.252s] -- Detecting CXX compile features
+[0.252s] -- Detecting CXX compile features - done
+[0.254s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.353s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.395s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.466s] -- Configuring done (0.4s)
+[0.467s] -- Generating done (0.0s)
+[0.469s] -- Build files have been written to: /home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_descriptions
+[0.473s] Invoked command in '/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_descriptions -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions
+[0.474s] Invoking command in '/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_descriptions -- -j24 -l24
+[0.501s] Invoked command in '/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_descriptions -- -j24 -l24
+[0.509s] Invoking command in '/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_descriptions
+[0.515s] -- Install configuration: ""
+[0.515s] -- Execute custom install script
+[0.515s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/launch/alicia.rviz
+[0.522s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/launch/display.launch.py
+[0.528s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/urdf/Alicia_D_v5_6/Alicia_D_v5_6_gripper_100mm.urdf
+[0.533s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/urdf/Alicia_D_v5_6/Alicia_D_v5_6_gripper_50mm.urdf
+[0.540s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/Link1.STL
+[0.545s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/Link2.STL
+[0.551s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/Link3.STL
+[0.558s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/Link4.STL
+[0.564s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/Link5.STL
+[0.570s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/Link6.STL
+[0.576s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/base_link.STL
+[0.582s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/girpper_center.STL
+[0.587s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/left_gripper.STL
+[0.593s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/right_gripper.STL
+[0.599s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/Link1.STL
+[0.605s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/Link2.STL
+[0.611s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/Link3.STL
+[0.616s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/Link4.STL
+[0.622s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/Link5.STL
+[0.628s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/Link6.STL
+[0.633s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/base_link.STL
+[0.639s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/girpper_center.STL
+[0.645s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/left_gripper.STL
+[0.650s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/right_gripper.STL
+[0.657s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/lib/alicia_d_descriptions/display.launch.py
+[0.662s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/ament_index/resource_index/package_run_dependencies/alicia_d_descriptions
+[0.668s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/ament_index/resource_index/parent_prefix_path/alicia_d_descriptions
+[0.674s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/environment/ament_prefix_path.sh
+[0.680s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/environment/ament_prefix_path.dsv
+[0.685s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/environment/path.sh
+[0.691s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/environment/path.dsv
+[0.696s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/local_setup.bash
+[0.702s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/local_setup.sh
+[0.707s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/local_setup.zsh
+[0.713s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/local_setup.dsv
+[0.718s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/package.dsv
+[0.724s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/ament_index/resource_index/packages/alicia_d_descriptions
+[0.730s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/cmake/alicia_d_descriptionsConfig.cmake
+[0.736s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/cmake/alicia_d_descriptionsConfig-version.cmake
+[0.742s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/package.xml
+[0.749s] Invoked command in '/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_descriptions

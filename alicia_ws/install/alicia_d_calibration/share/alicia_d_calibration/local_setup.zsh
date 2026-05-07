@@ -1,0 +1,1 @@
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_calibration/ament_cmake_environment_hooks/local_setup.zsh

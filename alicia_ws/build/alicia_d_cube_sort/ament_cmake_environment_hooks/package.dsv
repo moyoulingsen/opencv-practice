@@ -1,0 +1,4 @@
+source;share/alicia_d_cube_sort/local_setup.bash
+source;share/alicia_d_cube_sort/local_setup.dsv
+source;share/alicia_d_cube_sort/local_setup.sh
+source;share/alicia_d_cube_sort/local_setup.zsh

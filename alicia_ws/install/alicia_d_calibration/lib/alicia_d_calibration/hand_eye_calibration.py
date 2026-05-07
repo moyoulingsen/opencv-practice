@@ -1,0 +1,1 @@
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_calibration/scripts/hand_eye_calibration.py

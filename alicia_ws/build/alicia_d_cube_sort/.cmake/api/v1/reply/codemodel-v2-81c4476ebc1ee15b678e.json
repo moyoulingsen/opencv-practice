@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b119ba37131c257b5b52.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "alicia_d_cube_sort",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "alicia_d_cube_sort_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alicia_d_cube_sort_uninstall-6468816eb7703142972f.json",
+					"name" : "alicia_d_cube_sort_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_alicia_d_cube_sort_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_alicia_d_cube_sort_egg-a09e2225e7542f1b10a8.json",
+					"name" : "ament_cmake_python_build_alicia_d_cube_sort_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_alicia_d_cube_sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_alicia_d_cube_sort-819abd7bec0c1af6d839.json",
+					"name" : "ament_cmake_python_symlink_alicia_d_cube_sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bcd3f1bfb9260e8e52e2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lijiaolong/\u684c\u9762/opencv-practice/alicia_ws/build/alicia_d_cube_sort",
+		"source" : "/home/lijiaolong/\u684c\u9762/opencv-practice/alicia_ws/src/alicia_d_cube_sort"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

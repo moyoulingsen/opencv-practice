@@ -1,0 +1,42 @@
+Built target ament_cmake_python_symlink_alicia_d_cube_sort
+running egg_info
+writing alicia_d_cube_sort.egg-info/PKG-INFO
+writing dependency_links to alicia_d_cube_sort.egg-info/dependency_links.txt
+writing top-level names to alicia_d_cube_sort.egg-info/top_level.txt
+reading manifest file 'alicia_d_cube_sort.egg-info/SOURCES.txt'
+writing manifest file 'alicia_d_cube_sort.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_alicia_d_cube_sort_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/environment/pythonpath.sh
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/python3.12/site-packages/alicia_d_cube_sort-1.0.0-py3.12.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/python3.12/site-packages/alicia_d_cube_sort-1.0.0-py3.12.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/python3.12/site-packages/alicia_d_cube_sort-1.0.0-py3.12.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/python3.12/site-packages/alicia_d_cube_sort-1.0.0-py3.12.egg-info/top_level.txt
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/python3.12/site-packages/alicia_d_cube_sort/__init__.py
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/python3.12/site-packages/alicia_d_cube_sort/utils/__init__.py
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/python3.12/site-packages/alicia_d_cube_sort/utils/color_detection.py
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/python3.12/site-packages/alicia_d_cube_sort/utils/plane_estimation.py
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/alicia_d_cube_sort/cube_detection.py
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/alicia_d_cube_sort/cube_sorting.py
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/config/cube_sorting.yaml
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/launch/cube_detection.launch.py
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/launch/cube_sorting.launch.py
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/ament_index/resource_index/package_run_dependencies/alicia_d_cube_sort
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/ament_index/resource_index/parent_prefix_path/alicia_d_cube_sort
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/environment/path.sh
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/environment/path.dsv
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/local_setup.bash
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/local_setup.sh
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/local_setup.zsh
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/local_setup.dsv
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/package.dsv
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/ament_index/resource_index/packages/alicia_d_cube_sort
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/cmake/alicia_d_cube_sortConfig.cmake
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/cmake/alicia_d_cube_sortConfig-version.cmake
+-- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/package.xml
+Listing '/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/python3.12/site-packages/alicia_d_cube_sort'...
+Listing '/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/python3.12/site-packages/alicia_d_cube_sort/utils'...

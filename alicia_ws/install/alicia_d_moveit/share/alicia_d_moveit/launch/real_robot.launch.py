@@ -1,0 +1,1 @@
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_moveit/launch/real_robot.launch.py

@@ -1,0 +1,62 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclpy: 7.1.11 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_calibration
+Built target ament_cmake_python_symlink_alicia_d_calibration
+running egg_info
+creating alicia_d_calibration.egg-info
+writing alicia_d_calibration.egg-info/PKG-INFO
+writing dependency_links to alicia_d_calibration.egg-info/dependency_links.txt
+writing top-level names to alicia_d_calibration.egg-info/top_level.txt
+writing manifest file 'alicia_d_calibration.egg-info/SOURCES.txt'
+reading manifest file 'alicia_d_calibration.egg-info/SOURCES.txt'
+writing manifest file 'alicia_d_calibration.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_alicia_d_calibration_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/environment/pythonpath.sh
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/environment/pythonpath.dsv
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/lib/python3.12/site-packages/alicia_d_calibration-1.0.0-py3.12.egg-info/PKG-INFO
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/lib/python3.12/site-packages/alicia_d_calibration-1.0.0-py3.12.egg-info/SOURCES.txt
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/lib/python3.12/site-packages/alicia_d_calibration-1.0.0-py3.12.egg-info/dependency_links.txt
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/lib/python3.12/site-packages/alicia_d_calibration-1.0.0-py3.12.egg-info/top_level.txt
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/lib/python3.12/site-packages/alicia_d_calibration/__init__.py
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/lib/alicia_d_calibration/hand_eye_calibration.py
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/lib/alicia_d_calibration/generate_calibration_poses.py
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/lib/alicia_d_calibration/aruco_detector.py
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/launch/hand_eye_calibration.launch.py
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/launch/verify_calibration.launch.py
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/config/hand_eye_calibration_result.yaml
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/ament_index/resource_index/package_run_dependencies/alicia_d_calibration
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/ament_index/resource_index/parent_prefix_path/alicia_d_calibration
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/environment/ament_prefix_path.sh
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/environment/ament_prefix_path.dsv
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/environment/path.sh
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/environment/path.dsv
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/local_setup.bash
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/local_setup.sh
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/local_setup.zsh
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/local_setup.dsv
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/package.dsv
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/ament_index/resource_index/packages/alicia_d_calibration
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/cmake/alicia_d_calibrationConfig.cmake
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/cmake/alicia_d_calibrationConfig-version.cmake
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/package.xml
+Listing '/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/lib/python3.12/site-packages/alicia_d_calibration'...
+Compiling '/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/lib/python3.12/site-packages/alicia_d_calibration/__init__.py'...

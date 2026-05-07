@@ -1,0 +1,73 @@
+[0.008s] Invoking command in '/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_cube_sort': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_cube_sort -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort
+[0.067s] -- The C compiler identification is GNU 13.3.0
+[0.099s] -- The CXX compiler identification is GNU 13.3.0
+[0.109s] -- Detecting C compiler ABI info
+[0.163s] -- Detecting C compiler ABI info - done
+[0.169s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.170s] -- Detecting C compile features
+[0.170s] -- Detecting C compile features - done
+[0.177s] -- Detecting CXX compiler ABI info
+[0.238s] -- Detecting CXX compiler ABI info - done
+[0.245s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.245s] -- Detecting CXX compile features
+[0.245s] -- Detecting CXX compile features - done
+[0.246s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.358s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.401s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.419s] -- Found rclpy: 7.1.11 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.571s] -- Configuring done (0.6s)
+[0.573s] -- Generating done (0.0s)
+[0.574s] -- Build files have been written to: /home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_cube_sort
+[0.577s] Invoked command in '/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_cube_sort' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_cube_sort -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort
+[0.578s] Invoking command in '/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_cube_sort': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_cube_sort -- -j24 -l24
+[0.611s] Built target ament_cmake_python_symlink_alicia_d_cube_sort
+[0.727s] running egg_info
+[0.728s] creating alicia_d_cube_sort.egg-info
+[0.738s] writing alicia_d_cube_sort.egg-info/PKG-INFO
+[0.738s] writing dependency_links to alicia_d_cube_sort.egg-info/dependency_links.txt
+[0.738s] writing top-level names to alicia_d_cube_sort.egg-info/top_level.txt
+[0.738s] writing manifest file 'alicia_d_cube_sort.egg-info/SOURCES.txt'
+[0.768s] reading manifest file 'alicia_d_cube_sort.egg-info/SOURCES.txt'
+[0.768s] writing manifest file 'alicia_d_cube_sort.egg-info/SOURCES.txt'
+[0.786s] Built target ament_cmake_python_build_alicia_d_cube_sort_egg
+[0.793s] Invoked command in '/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_cube_sort' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_cube_sort -- -j24 -l24
+[0.794s] Invoking command in '/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_cube_sort': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_cube_sort
+[0.799s] -- Install configuration: ""
+[0.799s] -- Execute custom install script
+[0.799s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/environment/pythonpath.sh
+[0.805s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/environment/pythonpath.dsv
+[0.810s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/python3.12/site-packages/alicia_d_cube_sort-1.0.0-py3.12.egg-info/PKG-INFO
+[0.815s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/python3.12/site-packages/alicia_d_cube_sort-1.0.0-py3.12.egg-info/SOURCES.txt
+[0.821s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/python3.12/site-packages/alicia_d_cube_sort-1.0.0-py3.12.egg-info/dependency_links.txt
+[0.827s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/python3.12/site-packages/alicia_d_cube_sort-1.0.0-py3.12.egg-info/top_level.txt
+[0.833s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/python3.12/site-packages/alicia_d_cube_sort/__init__.py
+[0.839s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/python3.12/site-packages/alicia_d_cube_sort/utils/__init__.py
+[0.844s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/python3.12/site-packages/alicia_d_cube_sort/utils/color_detection.py
+[0.850s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/python3.12/site-packages/alicia_d_cube_sort/utils/plane_estimation.py
+[0.856s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/alicia_d_cube_sort/cube_detection.py
+[0.860s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/alicia_d_cube_sort/cube_sorting.py
+[0.866s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/config/cube_sorting.yaml
+[0.872s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/launch/cube_detection.launch.py
+[0.878s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/launch/cube_sorting.launch.py
+[0.884s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/ament_index/resource_index/package_run_dependencies/alicia_d_cube_sort
+[0.890s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/ament_index/resource_index/parent_prefix_path/alicia_d_cube_sort
+[0.895s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/environment/ament_prefix_path.sh
+[0.901s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/environment/ament_prefix_path.dsv
+[0.907s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/environment/path.sh
+[0.912s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/environment/path.dsv
+[0.917s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/local_setup.bash
+[0.923s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/local_setup.sh
+[0.929s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/local_setup.zsh
+[0.934s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/local_setup.dsv
+[0.940s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/package.dsv
+[0.945s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/ament_index/resource_index/packages/alicia_d_cube_sort
+[0.950s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/cmake/alicia_d_cube_sortConfig.cmake
+[0.955s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/cmake/alicia_d_cube_sortConfig-version.cmake
+[0.960s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/share/alicia_d_cube_sort/package.xml
+[0.985s] Listing '/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/python3.12/site-packages/alicia_d_cube_sort'...
+[0.985s] Compiling '/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/python3.12/site-packages/alicia_d_cube_sort/__init__.py'...
+[0.985s] Listing '/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/python3.12/site-packages/alicia_d_cube_sort/utils'...
+[0.985s] Compiling '/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/python3.12/site-packages/alicia_d_cube_sort/utils/__init__.py'...
+[0.985s] Compiling '/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/python3.12/site-packages/alicia_d_cube_sort/utils/color_detection.py'...
+[0.985s] Compiling '/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_cube_sort/lib/python3.12/site-packages/alicia_d_cube_sort/utils/plane_estimation.py'...
+[0.989s] Invoked command in '/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_cube_sort' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_cube_sort

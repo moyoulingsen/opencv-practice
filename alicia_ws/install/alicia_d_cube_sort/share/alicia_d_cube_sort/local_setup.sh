@@ -1,0 +1,1 @@
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_cube_sort/ament_cmake_environment_hooks/local_setup.sh

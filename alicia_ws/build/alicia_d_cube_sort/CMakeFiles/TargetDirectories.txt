@@ -1,0 +1,11 @@
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_cube_sort/CMakeFiles/uninstall.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_cube_sort/CMakeFiles/alicia_d_cube_sort_uninstall.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_cube_sort/CMakeFiles/ament_cmake_python_symlink_alicia_d_cube_sort.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_cube_sort/CMakeFiles/ament_cmake_python_build_alicia_d_cube_sort_egg.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_cube_sort/CMakeFiles/test.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_cube_sort/CMakeFiles/edit_cache.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_cube_sort/CMakeFiles/rebuild_cache.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_cube_sort/CMakeFiles/list_install_components.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_cube_sort/CMakeFiles/install.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_cube_sort/CMakeFiles/install/local.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_cube_sort/CMakeFiles/install/strip.dir

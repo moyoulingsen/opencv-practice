@@ -1,0 +1,4 @@
+[ 25%] Built target serial_communicator_lib
+[ 50%] Built target alicia_d_data_parser_control_lib
+[ 75%] Built target alicia_d_driver_node
+[ 87%] [32mBuilding CXX object CMakeFiles/alicia_d_hardware_interface.dir/src/alicia_d_hardware_interface.cpp.o[0m

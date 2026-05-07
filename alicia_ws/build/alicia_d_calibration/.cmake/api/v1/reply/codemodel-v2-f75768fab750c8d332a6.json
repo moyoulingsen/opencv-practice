@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3cf1b5d2f4a34b738dd1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "alicia_d_calibration",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "alicia_d_calibration_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alicia_d_calibration_uninstall-b52d9d54e2797387c712.json",
+					"name" : "alicia_d_calibration_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_alicia_d_calibration_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_alicia_d_calibration_egg-aa05b41ff3671a8311e9.json",
+					"name" : "ament_cmake_python_build_alicia_d_calibration_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_alicia_d_calibration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_alicia_d_calibration-279d7a9dcd5171bdbf72.json",
+					"name" : "ament_cmake_python_symlink_alicia_d_calibration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-aaa63e635bf5f647c808.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lijiaolong/\u684c\u9762/opencv-practice/alicia_ws/build/alicia_d_calibration",
+		"source" : "/home/lijiaolong/\u684c\u9762/opencv-practice/alicia_ws/src/alicia_d_calibration"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

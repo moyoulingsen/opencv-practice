@@ -1,0 +1,60 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_descriptions
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/launch/alicia.rviz
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/launch/display.launch.py
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/urdf/Alicia_D_v5_6/Alicia_D_v5_6_gripper_100mm.urdf
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/urdf/Alicia_D_v5_6/Alicia_D_v5_6_gripper_50mm.urdf
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/Link1.STL
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/Link2.STL
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/Link3.STL
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/Link4.STL
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/Link5.STL
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/Link6.STL
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/base_link.STL
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/girpper_center.STL
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/left_gripper.STL
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_100mm/right_gripper.STL
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/Link1.STL
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/Link2.STL
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/Link3.STL
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/Link4.STL
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/Link5.STL
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/Link6.STL
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/base_link.STL
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/girpper_center.STL
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/left_gripper.STL
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/meshes/Alicia_D_v5_6/gripper_50mm/right_gripper.STL
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/lib/alicia_d_descriptions/display.launch.py
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/ament_index/resource_index/package_run_dependencies/alicia_d_descriptions
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/ament_index/resource_index/parent_prefix_path/alicia_d_descriptions
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/environment/ament_prefix_path.sh
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/environment/ament_prefix_path.dsv
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/environment/path.sh
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/environment/path.dsv
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/local_setup.bash
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/local_setup.sh
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/local_setup.zsh
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/local_setup.dsv
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/package.dsv
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/ament_index/resource_index/packages/alicia_d_descriptions
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/cmake/alicia_d_descriptionsConfig.cmake
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/cmake/alicia_d_descriptionsConfig-version.cmake
+-- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_descriptions/share/alicia_d_descriptions/package.xml

@@ -1,0 +1,1 @@
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_cube_sort/scripts/cube_sorting.py

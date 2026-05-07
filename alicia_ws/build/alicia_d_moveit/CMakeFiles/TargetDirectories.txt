@@ -1,0 +1,9 @@
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_moveit/CMakeFiles/uninstall.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_moveit/CMakeFiles/alicia_d_moveit_uninstall.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_moveit/CMakeFiles/test.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_moveit/CMakeFiles/edit_cache.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_moveit/CMakeFiles/rebuild_cache.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_moveit/CMakeFiles/list_install_components.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_moveit/CMakeFiles/install.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_moveit/CMakeFiles/install/local.dir
+/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_moveit/CMakeFiles/install/strip.dir

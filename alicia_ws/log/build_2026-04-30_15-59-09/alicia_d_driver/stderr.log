@@ -1,0 +1,270 @@
+In file included from [01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:1[m[K:
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/include/alicia_d_driver/alicia_d_hardware_interface.hpp:26:58:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K:[m[K’ token
+   26 | class HARDWARE_INTERFACE_PUBLIC AliciaDHardwareInterface [01;31m[K:[m[K public hardware_interface::SystemInterface
+      |                                                          [01;31m[K^[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:12:16:[m[K [01;31m[Kerror: [m[K‘[01m[KAliciaDHardwareInterface[m[K’ has not been declared
+   12 | CallbackReturn [01;31m[KAliciaDHardwareInterface[m[K::on_init(
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:[m[K In function ‘[01m[Kalicia_d_driver::CallbackReturn alicia_d_driver::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:15:51:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’ without object
+   15 |   if ([01;31m[Khardware_interface::SystemInterface::on_init(info)[m[K != CallbackReturn::SUCCESS)
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:21:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kport_[m[K’ was not declared in this scope
+   21 |   [01;31m[Kport_[m[K = info_.hardware_parameters["port"];
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:21:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope; did you mean ‘[01m[Kinfo[m[K’?
+   21 |   port_ = [01;31m[Kinfo_[m[K.hardware_parameters["port"];
+      |           [01;31m[K^~~~~[m[K
+      |           [32m[Kinfo[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:22:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kdebug_mode_[m[K’ was not declared in this scope
+   22 |   [01;31m[Kdebug_mode_[m[K = info_.hardware_parameters.count("debug_mode") ?
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:26:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_type_param_[m[K’ was not declared in this scope
+   26 |   [01;31m[Kgripper_type_param_[m[K = info_.hardware_parameters.count("gripper_type") ?
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:30:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kdefault_speed_deg_s_[m[K’ was not declared in this scope
+   30 |   [01;31m[Kdefault_speed_deg_s_[m[K = info_.hardware_parameters.count("default_speed_deg_s") ?
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:36:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_positions_state_[m[K’ was not declared in this scope
+   36 |   [01;31m[Khw_positions_state_[m[K.resize(info_.joints.size(), 0.0);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:37:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_positions_command_[m[K’ was not declared in this scope
+   37 |   [01;31m[Khw_positions_command_[m[K.resize(info_.joints.size(), 0.0);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:38:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_velocities_state_[m[K’ was not declared in this scope
+   38 |   [01;31m[Khw_velocities_state_[m[K.resize(info_.joints.size(), 0.0);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:39:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_velocities_command_[m[K’ was not declared in this scope
+   39 |   [01;31m[Khw_velocities_command_[m[K.resize(info_.joints.size(), 0.0);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:41:3:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_write_time_[m[K’ was not declared in this scope
+   41 |   [01;31m[Klast_write_time_[m[K = rclcpp::Time(0, 0, RCL_STEADY_TIME);
+      |   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:42:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmin_write_period_[m[K’ was not declared in this scope
+   42 |   [01;31m[Kmin_write_period_[m[K = 0.0;  // No rate limiting - send commands every cycle for real-time control
+      |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:45:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khardware_connected_[m[K’ was not declared in this scope
+   45 |   [01;31m[Khardware_connected_[m[K = false;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:[m[K At global scope:
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:56:16:[m[K [01;31m[Kerror: [m[K‘[01m[KAliciaDHardwareInterface[m[K’ has not been declared
+   56 | CallbackReturn [01;31m[KAliciaDHardwareInterface[m[K::on_configure(
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:[m[K In function ‘[01m[Kalicia_d_driver::CallbackReturn alicia_d_driver::[01;32m[Kon_configure[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:62:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommunicator_[m[K’ was not declared in this scope
+   62 |   [01;31m[Kcommunicator_[m[K = std::make_unique<SerialCommunicator>(port_, debug_mode_);
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:62:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kport_[m[K’ was not declared in this scope
+   62 |   communicator_ = std::make_unique<SerialCommunicator>([01;31m[Kport_[m[K, debug_mode_);
+      |                                                        [01;31m[K^~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:62:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kdebug_mode_[m[K’ was not declared in this scope
+   62 | communicator_ = std::make_unique<SerialCommunicator>(port_, [01;31m[Kdebug_mode_[m[K);
+      |                                                             [01;31m[K^~~~~~~~~~~[m[K
+
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:63:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_parser_control_[m[K’ was not declared in this scope
+   63 |   [01;31m[Kdata_parser_control_[m[K = std::make_unique<AliciaDDataParserControl>(
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:64:89:[m[K [01;31m[Kerror: [m[K‘[01m[Kgripper_type_param_[m[K’ was not declared in this scope
+   64 | clcpp::get_logger("AliciaDHardwareInterface"), debug_mode_, [01;31m[Kgripper_type_param_[m[K);
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:[m[K At global scope:
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:69:49:[m[K [01;31m[Kerror: [m[K‘[01m[KAliciaDHardwareInterface[m[K’ has not been declared
+   69 | std::vector<hardware_interface::StateInterface> [01;31m[KAliciaDHardwareInterface[m[K::export_state_interfaces()
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:[m[K In function ‘[01m[Kstd::vector<hardware_interface::StateInterface> alicia_d_driver::[01;32m[Kexport_state_interfaces[m[K()[m[K’:
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:73:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+   73 |   for (size_t i = 0; i < [01;31m[Kinfo_[m[K.joints.size(); i++)
+      |                          [01;31m[K^~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:76:66:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_positions_state_[m[K’ was not declared in this scope
+   76 |  info_.joints[i].name, hardware_interface::HW_IF_POSITION, &[01;31m[Khw_positions_state_[m[K[i]));
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:78:66:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_velocities_state_[m[K’ was not declared in this scope
+   78 |  info_.joints[i].name, hardware_interface::HW_IF_VELOCITY, &[01;31m[Khw_velocities_state_[m[K[i]));
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:[m[K At global scope:
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:84:51:[m[K [01;31m[Kerror: [m[K‘[01m[KAliciaDHardwareInterface[m[K’ has not been declared
+   84 | std::vector<hardware_interface::CommandInterface> [01;31m[KAliciaDHardwareInterface[m[K::export_command_interfaces()
+      |                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:[m[K In function ‘[01m[Kstd::vector<hardware_interface::CommandInterface> alicia_d_driver::[01;32m[Kexport_command_interfaces[m[K()[m[K’:
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:88:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+   88 |   for (size_t i = 0; i < [01;31m[Kinfo_[m[K.joints.size(); i++)
+      |                          [01;31m[K^~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:91:66:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_positions_command_[m[K’ was not declared in this scope
+   91 |  info_.joints[i].name, hardware_interface::HW_IF_POSITION, &[01;31m[Khw_positions_command_[m[K[i]));
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:93:66:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_velocities_command_[m[K’ was not declared in this scope
+   93 |  info_.joints[i].name, hardware_interface::HW_IF_VELOCITY, &[01;31m[Khw_velocities_command_[m[K[i]));
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:[m[K At global scope:
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:99:16:[m[K [01;31m[Kerror: [m[K‘[01m[KAliciaDHardwareInterface[m[K’ has not been declared
+   99 | CallbackReturn [01;31m[KAliciaDHardwareInterface[m[K::on_activate(
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:[m[K In function ‘[01m[Kalicia_d_driver::CallbackReturn alicia_d_driver::[01;32m[Kon_activate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:105:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommunicator_[m[K’ was not declared in this scope
+  105 |   if ([01;31m[Kcommunicator_[m[K->connect())
+      |       [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:107:5:[m[K [01;31m[Kerror: [m[K‘[01m[Khardware_connected_[m[K’ was not declared in this scope
+  107 |     [01;31m[Khardware_connected_[m[K = true;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:112:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_parser_control_[m[K’ was not declared in this scope
+  112 |     [01;31m[Kdata_parser_control_[m[K->start_parsing_thread();
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:128:5:[m[K [01;31m[Kerror: [m[K‘[01m[Khardware_connected_[m[K’ was not declared in this scope
+  128 |     [01;31m[Khardware_connected_[m[K = false;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:135:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_positions_command_[m[K’ was not declared in this scope
+  135 |   [01;31m[Khw_positions_command_[m[K = hw_positions_state_;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:135:27:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_positions_state_[m[K’ was not declared in this scope
+  135 |   hw_positions_command_ = [01;31m[Khw_positions_state_[m[K;
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:[m[K At global scope:
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:140:16:[m[K [01;31m[Kerror: [m[K‘[01m[KAliciaDHardwareInterface[m[K’ has not been declared
+  140 | CallbackReturn [01;31m[KAliciaDHardwareInterface[m[K::on_deactivate(
+      |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:[m[K In function ‘[01m[Kalicia_d_driver::CallbackReturn alicia_d_driver::[01;32m[Kon_deactivate[m[K(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:146:7:[m[K [01;31m[Kerror: [m[K‘[01m[Khardware_connected_[m[K’ was not declared in this scope
+  146 |   if ([01;31m[Khardware_connected_[m[K && data_parser_control_)
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:146:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_parser_control_[m[K’ was not declared in this scope
+  146 |   if (hardware_connected_ && [01;31m[Kdata_parser_control_[m[K)
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:152:7:[m[K [01;31m[Kerror: [m[K‘[01m[Khardware_connected_[m[K’ was not declared in this scope
+  152 |   if ([01;31m[Khardware_connected_[m[K && communicator_)
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:152:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommunicator_[m[K’ was not declared in this scope
+  152 |   if (hardware_connected_ && [01;31m[Kcommunicator_[m[K)
+      |                              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:157:3:[m[K [01;31m[Kerror: [m[K‘[01m[Khardware_connected_[m[K’ was not declared in this scope
+  157 |   [01;31m[Khardware_connected_[m[K = false;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:[m[K At global scope:
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:162:13:[m[K [01;31m[Kerror: [m[K‘[01m[KAliciaDHardwareInterface[m[K’ has not been declared
+  162 | return_type [01;31m[KAliciaDHardwareInterface[m[K::read(
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:[m[K In function ‘[01m[Khardware_interface::return_type alicia_d_driver::[01;32m[Kread[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:166:8:[m[K [01;31m[Kerror: [m[K‘[01m[Khardware_connected_[m[K’ was not declared in this scope
+  166 |   if (![01;31m[Khardware_connected_[m[K || !communicator_ || !communicator_->is_connected() || !data_parser_control_)
+      |        [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:166:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommunicator_[m[K’ was not declared in this scope
+  166 |   if (!hardware_connected_ || ![01;31m[Kcommunicator_[m[K || !communicator_->is_connected() || !data_parser_control_)
+      |                                [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:166:84:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_parser_control_[m[K’ was not declared in this scope
+  166 | ed_ || !communicator_ || !communicator_->is_connected() || ![01;31m[Kdata_parser_control_[m[K)
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:169:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_mutex_[m[K’ was not declared in this scope
+  169 |     std::lock_guard<std::mutex> lock([01;31m[Kdata_mutex_[m[K);
+      |                                      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:170:5:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_positions_state_[m[K’ was not declared in this scope
+  170 |     [01;31m[Khw_positions_state_[m[K = hw_positions_command_;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:170:27:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_positions_command_[m[K’ was not declared in this scope
+  170 |     hw_positions_state_ = [01;31m[Khw_positions_command_[m[K;
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:172:28:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_velocities_state_[m[K’ was not declared in this scope
+  172 |     for (size_t i = 0; i < [01;31m[Khw_velocities_state_[m[K.size(); ++i)
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:174:15:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_velocities_command_[m[K’ was not declared in this scope
+  174 |       if (i < [01;31m[Khw_velocities_command_[m[K.size())
+      |               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:191:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_parser_control_[m[K’ was not declared in this scope
+  191 |     [01;31m[Kdata_parser_control_[m[K->acquire_info("joint", false);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:196:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_parser_control_[m[K’ was not declared in this scope
+  196 |   auto joint_state = [01;31m[Kdata_parser_control_[m[K->get_joint_state();
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:201:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_mutex_[m[K’ was not declared in this scope
+  201 |     std::lock_guard<std::mutex> lock([01;31m[Kdata_mutex_[m[K);
+      |                                      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:204:71:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_positions_state_[m[K’ was not declared in this scope
+  204 | ize_t i = 0; i < 6 && i < joint_state->angles.size() && i < [01;31m[Khw_positions_state_[m[K.size(); ++i)
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:210:9:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_positions_state_[m[K’ was not declared in this scope
+  210 |     if ([01;31m[Khw_positions_state_[m[K.size() > 6)
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:219:79:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_velocities_state_[m[K’ was not declared in this scope
+  219 | i = 0; i < 6 && i < velocity_data->velocities.size() && i < [01;31m[Khw_velocities_state_[m[K.size(); ++i)
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:224:11:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_velocities_state_[m[K’ was not declared in this scope
+  224 |       if ([01;31m[Khw_velocities_state_[m[K.size() > 6)
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:[m[K At global scope:
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:234:13:[m[K [01;31m[Kerror: [m[K‘[01m[KAliciaDHardwareInterface[m[K’ has not been declared
+  234 | return_type [01;31m[KAliciaDHardwareInterface[m[K::write(
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:[m[K In function ‘[01m[Khardware_interface::return_type alicia_d_driver::[01;32m[Kwrite[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:238:8:[m[K [01;31m[Kerror: [m[K‘[01m[Khardware_connected_[m[K’ was not declared in this scope
+  238 |   if (![01;31m[Khardware_connected_[m[K || !communicator_ || !communicator_->is_connected() || !data_parser_control_)
+      |        [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:238:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommunicator_[m[K’ was not declared in this scope
+  238 |   if (!hardware_connected_ || ![01;31m[Kcommunicator_[m[K || !communicator_->is_connected() || !data_parser_control_)
+      |                                [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:238:84:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_parser_control_[m[K’ was not declared in this scope
+  238 | ed_ || !communicator_ || !communicator_->is_connected() || ![01;31m[Kdata_parser_control_[m[K)
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:248:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_mutex_[m[K’ was not declared in this scope
+  248 |   std::lock_guard<std::mutex> lock([01;31m[Kdata_mutex_[m[K);
+      |                                    [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/opt/ros/jazzy/include/pal_statistics/pal_statistics/pal_statistics_utils.hpp:45[m[K,
+                 from [01m[K/opt/ros/jazzy/include/pal_statistics/pal_statistics/pal_statistics.hpp:38[m[K,
+                 from [01m[K/opt/ros/jazzy/include/pal_statistics/pal_statistics/pal_statistics_macros.hpp:36[m[K,
+                 from [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/introspection.hpp:23[m[K,
+                 from [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/handle.hpp:32[m[K,
+                 from [01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/include/alicia_d_driver/alicia_d_hardware_interface.hpp:9[m[K:
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:255:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kdefault_speed_deg_s_[m[K’ was not declared in this scope
+  255 |   "Starting to send joint commands with speed: %.1f deg/s", [01;31m[Kdefault_speed_deg_s_[m[K);
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:261:35:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_positions_command_[m[K’ was not declared in this scope
+  261 |   for (size_t i = 0; i < 6 && i < [01;31m[Khw_positions_command_[m[K.size(); ++i)
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:268:7:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_positions_command_[m[K’ was not declared in this scope
+  268 |   if ([01;31m[Khw_positions_command_[m[K.size() > 6)
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:270:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_parser_control_[m[K’ was not declared in this scope
+  270 |     gripper_value = [01;31m[Kdata_parser_control_[m[K->gripper_position_to_value(hw_positions_command_[6]);
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:273:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kdefault_speed_deg_s_[m[K’ was not declared in this scope
+  273 |   double speed_deg_s = [01;31m[Kdefault_speed_deg_s_[m[K;
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:287:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_parser_control_[m[K’ was not declared in this scope
+  287 |   [01;31m[Kdata_parser_control_[m[K->set_joint_and_gripper(joint_angles, gripper_value, speed_deg_s);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/jazzy/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:295[m[K:
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:[m[K At global scope:
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:296:41:[m[K [01;31m[Kerror: [m[K‘[01m[KAliciaDHardwareInterface[m[K’ in namespace ‘[01m[Kalicia_d_driver[m[K’ does not name a type
+  296 | PLUGINLIB_EXPORT_CLASS(alicia_d_driver::[01;31m[KAliciaDHardwareInterface[m[K, hardware_interface::SystemInterface)
+      |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::[01;32m[KProxyExec0[m[K()[m[K’:
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:296:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+  296 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(alicia_d_driver::AliciaDHardwareInterface, hardware_interface::SystemInterface)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:296:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, {anonymous}::ProxyExec0::_base>(const char [42], const char [36])[m[K’
+  296 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(alicia_d_driver::AliciaDHardwareInterface, hardware_interface::SystemInterface)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader.hpp:55[m[K:
+[01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp:241:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> class_loader::impl::UniquePtr<class_loader::impl::AbstractMetaObjectBase> class_loader::impl::[01;32m[KregisterPlugin[m[K(const std::string&, const std::string&)[m[K’
+  241 | [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+      | [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp:241:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:296:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  296 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(alicia_d_driver::AliciaDHardwareInterface, hardware_interface::SystemInterface)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/alicia_d_hardware_interface.dir/build.make:76：CMakeFiles/alicia_d_hardware_interface.dir/src/alicia_d_hardware_interface.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:170：CMakeFiles/alicia_d_hardware_interface.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2
