@@ -1,0 +1,43 @@
+[0.009s] Invoking command in '/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_calibration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_calibration -- -j24 -l24
+[0.057s] Built target ament_cmake_python_symlink_alicia_d_calibration
+[0.260s] running egg_info
+[0.270s] writing alicia_d_calibration.egg-info/PKG-INFO
+[0.270s] writing dependency_links to alicia_d_calibration.egg-info/dependency_links.txt
+[0.270s] writing top-level names to alicia_d_calibration.egg-info/top_level.txt
+[0.301s] reading manifest file 'alicia_d_calibration.egg-info/SOURCES.txt'
+[0.301s] writing manifest file 'alicia_d_calibration.egg-info/SOURCES.txt'
+[0.325s] Built target ament_cmake_python_build_alicia_d_calibration_egg
+[0.336s] Invoked command in '/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_calibration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_calibration -- -j24 -l24
+[0.336s] Invoking command in '/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_calibration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_calibration
+[0.342s] -- Install configuration: ""
+[0.342s] -- Execute custom install script
+[0.342s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/environment/pythonpath.sh
+[0.343s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/environment/pythonpath.dsv
+[0.343s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/lib/python3.12/site-packages/alicia_d_calibration-1.0.0-py3.12.egg-info/PKG-INFO
+[0.343s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/lib/python3.12/site-packages/alicia_d_calibration-1.0.0-py3.12.egg-info/SOURCES.txt
+[0.343s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/lib/python3.12/site-packages/alicia_d_calibration-1.0.0-py3.12.egg-info/dependency_links.txt
+[0.343s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/lib/python3.12/site-packages/alicia_d_calibration-1.0.0-py3.12.egg-info/top_level.txt
+[0.343s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/lib/python3.12/site-packages/alicia_d_calibration/__init__.py
+[0.343s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/lib/alicia_d_calibration/hand_eye_calibration.py
+[0.343s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/lib/alicia_d_calibration/generate_calibration_poses.py
+[0.344s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/lib/alicia_d_calibration/aruco_detector.py
+[0.344s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/launch/hand_eye_calibration.launch.py
+[0.344s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/launch/verify_calibration.launch.py
+[0.344s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/config/hand_eye_calibration_result.yaml
+[0.344s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/ament_index/resource_index/package_run_dependencies/alicia_d_calibration
+[0.344s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/ament_index/resource_index/parent_prefix_path/alicia_d_calibration
+[0.344s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/environment/ament_prefix_path.sh
+[0.345s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/environment/ament_prefix_path.dsv
+[0.345s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/environment/path.sh
+[0.345s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/environment/path.dsv
+[0.345s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/local_setup.bash
+[0.345s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/local_setup.sh
+[0.345s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/local_setup.zsh
+[0.345s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/local_setup.dsv
+[0.345s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/package.dsv
+[0.352s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/ament_index/resource_index/packages/alicia_d_calibration
+[0.352s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/cmake/alicia_d_calibrationConfig.cmake
+[0.352s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/cmake/alicia_d_calibrationConfig-version.cmake
+[0.352s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/share/alicia_d_calibration/package.xml
+[0.376s] Listing '/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_calibration/lib/python3.12/site-packages/alicia_d_calibration'...
+[0.382s] Invoked command in '/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_calibration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_calibration

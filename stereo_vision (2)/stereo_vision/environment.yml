@@ -1,0 +1,11 @@
+name: stereo_cv
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - numpy
+      - opencv-contrib-python
+      - pyyaml
+      - matplotlib

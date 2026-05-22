@@ -1,0 +1,64 @@
+[0.010s] Invoking command in '/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_driver -- -j24 -l24
+[0.095s] [ 12%] Building CXX object CMakeFiles/serial_communicator_lib.dir/src/serial_communicator.cpp.o
+[1.856s] [ 25%] Linking CXX shared library libserial_communicator_lib.so
+[1.947s] [ 25%] Built target serial_communicator_lib
+[1.974s] [ 37%] Building CXX object CMakeFiles/alicia_d_data_parser_control_lib.dir/src/alicia_d_data_parser_control.cpp.o
+[3.698s] [ 50%] Linking CXX shared library libalicia_d_data_parser_control_lib.so
+[3.783s] [ 50%] Built target alicia_d_data_parser_control_lib
+[3.810s] [ 75%] Building CXX object CMakeFiles/alicia_d_driver_node.dir/src/alicia_d_driver_node.cpp.o
+[3.810s] [ 75%] Building CXX object CMakeFiles/alicia_d_hardware_interface.dir/src/alicia_d_hardware_interface.cpp.o
+[5.230s] /home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp: In member function ‘virtual alicia_d_driver::CallbackReturn alicia_d_driver::AliciaDHardwareInterface::on_init(const hardware_interface::HardwareInfo&)’:
+[5.230s] /home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:15:51: warning: ‘virtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::on_init(const hardware_interface::HardwareInfo&)’ is deprecated: Use on_init(const HardwareComponentInterfaceParams & params) instead. [-Wdeprecated-declarations]
+[5.230s]    15 |   if (hardware_interface::SystemInterface::on_init(info) != CallbackReturn::SUCCESS)
+[5.230s]       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+[5.230s] In file included from /opt/ros/jazzy/include/hardware_interface/hardware_interface/system_interface.hpp:18,
+[5.230s]                  from /home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/include/alicia_d_driver/alicia_d_hardware_interface.hpp:11,
+[5.230s]                  from /home/lijiaolong/桌面/opencv-practice/alicia_ws/src/alicia_d_driver/src/alicia_d_hardware_interface.cpp:1:
+[5.230s] /opt/ros/jazzy/include/hardware_interface/hardware_interface/hardware_component_interface.hpp:140:26: note: declared here
+[5.230s]   140 |   virtual CallbackReturn on_init(const HardwareInfo & hardware_info);
+[5.230s]       |                          ^~~~~~~
+[6.412s] [ 87%] Linking CXX shared library libalicia_d_hardware_interface.so
+[6.534s] [ 87%] Built target alicia_d_hardware_interface
+[9.238s] [100%] Linking CXX executable alicia_d_driver_node
+[9.464s] [100%] Built target alicia_d_driver_node
+[9.472s] Invoked command in '/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_driver -- -j24 -l24
+[9.473s] Invoking command in '/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_driver
+[9.480s] -- Install configuration: ""
+[9.481s] -- Execute custom install script
+[9.481s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver//alicia_d_driver.xml
+[9.481s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/include/alicia_d_driver/alicia_d_driver/alicia_d_data_parser_control.hpp
+[9.481s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/include/alicia_d_driver/alicia_d_driver/alicia_d_driver_node.hpp
+[9.482s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/include/alicia_d_driver/alicia_d_driver/alicia_d_hardware_interface.hpp
+[9.482s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/include/alicia_d_driver/alicia_d_driver/serial_communicator.hpp
+[9.482s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/alicia_d_driver.launch.py
+[9.482s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/alicia_d_driver.xml
+[9.482s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/lib/alicia_d_driver/alicia_d_driver_node
+[9.482s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/environment/library_path.sh
+[9.482s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/environment/library_path.dsv
+[9.482s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/ament_index/resource_index/package_run_dependencies/alicia_d_driver
+[9.482s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/ament_index/resource_index/parent_prefix_path/alicia_d_driver
+[9.482s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/environment/ament_prefix_path.sh
+[9.483s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/environment/ament_prefix_path.dsv
+[9.483s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/environment/path.sh
+[9.483s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/environment/path.dsv
+[9.483s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/local_setup.bash
+[9.483s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/local_setup.sh
+[9.483s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/local_setup.zsh
+[9.484s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/local_setup.dsv
+[9.484s] -- Symlinking: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/package.dsv
+[9.492s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/ament_index/resource_index/packages/alicia_d_driver
+[9.492s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/alicia_d_driver
+[9.492s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/cmake/ament_cmake_export_targets-extras.cmake
+[9.492s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.492s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/cmake/alicia_d_driverConfig.cmake
+[9.492s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/cmake/alicia_d_driverConfig-version.cmake
+[9.492s] -- Up-to-date symlink: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/package.xml
+[9.494s] -- Installing: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/lib/libalicia_d_hardware_interface.so
+[9.495s] -- Set non-toolchain portion of runtime path of "/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/lib/libalicia_d_hardware_interface.so" to ""
+[9.495s] -- Installing: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/lib/libserial_communicator_lib.so
+[9.495s] -- Set non-toolchain portion of runtime path of "/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/lib/libserial_communicator_lib.so" to ""
+[9.496s] -- Installing: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/lib/libalicia_d_data_parser_control_lib.so
+[9.497s] -- Set non-toolchain portion of runtime path of "/home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/lib/libalicia_d_data_parser_control_lib.so" to ""
+[9.497s] -- Up-to-date: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/cmake/export_alicia_d_driverExport.cmake
+[9.497s] -- Up-to-date: /home/lijiaolong/桌面/opencv-practice/alicia_ws/install/alicia_d_driver/share/alicia_d_driver/cmake/export_alicia_d_driverExport-noconfig.cmake
+[9.498s] Invoked command in '/home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lijiaolong/桌面/opencv-practice/alicia_ws/build/alicia_d_driver

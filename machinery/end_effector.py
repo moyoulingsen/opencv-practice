@@ -8,16 +8,82 @@
 # R：释放破真空
 # I：全部待机
 
+import argparse
+import glob
+import os
+import sys
 import time
-import serial
+
+try:
+    import serial
+    from serial.tools import list_ports
+except ModuleNotFoundError as exc:
+    raise SystemExit(
+        "缺少 pyserial。当前 python 没有 serial 模块。\n"
+        "可直接用系统 Python 运行：/usr/bin/python3 machinery/end_effector.py --list\n"
+        "或安装到当前环境：python3 -m pip install pyserial"
+    ) from exc
+
+
+DEFAULT_BAUDRATE = 115200
+DEFAULT_TIMEOUT = 1.0
+UNSAFE_COMMANDS = {"F", "B", "G", "A", "X"}
+
+
+def list_serial_ports() -> list[str]:
+    """Return likely USB serial device paths on Linux/Windows."""
+
+    ports = []
+    for port in list_ports.comports():
+        device = port.device
+        if (
+            device.startswith("/dev/ttyACM")
+            or device.startswith("/dev/ttyUSB")
+            or device.upper().startswith("COM")
+        ):
+            ports.append(device)
+
+    # list_ports sometimes misses devices while permissions/metadata are odd.
+    for pattern in ("/dev/serial/by-id/*", "/dev/ttyACM*", "/dev/ttyUSB*"):
+        ports.extend(glob.glob(pattern))
+
+    # Preserve order while removing duplicates.
+    unique_ports = []
+    seen = set()
+    for port in ports:
+        if port not in seen:
+            unique_ports.append(port)
+            seen.add(port)
+
+    return unique_ports
+
+
+def auto_detect_port() -> str:
+    ports = list_serial_ports()
+    if not ports:
+        raise RuntimeError(
+            "没有找到 STM32/USB-TTL 串口设备。先插上硬件，再运行：\n"
+            "  ls -l /dev/ttyUSB* /dev/ttyACM* /dev/serial/by-id/*\n"
+            "如果设备刚插上还没有出现，检查 USB 线、电源、烧录程序和 dmesg。"
+        )
+
+    # Prefer stable udev symlinks, then common USB serial names.
+    for prefix in ("/dev/serial/by-id/", "/dev/ttyACM", "/dev/ttyUSB"):
+        for port in ports:
+            if port.startswith(prefix):
+                return port
+
+    raise RuntimeError(
+        "只检测到非 USB 串口，未自动选择。请用 --port 明确指定末端执行器串口。"
+    )
 
 
 class EndEffector:
     def __init__(
         self,
-        port: str = "COM5",
-        baudrate: int = 115200,
-        timeout: float = 1.0,
+        port: str | None = None,
+        baudrate: int = DEFAULT_BAUDRATE,
+        timeout: float = DEFAULT_TIMEOUT,
         close_cmd: str = "F",
         open_cmd: str = "B",
     ):
@@ -25,28 +91,35 @@ class EndEffector:
         初始化末端执行器串口控制类
 
         参数说明：
-        port：STM32 对应的串口号，例如 COM5、COM6
+        port：STM32 对应的串口号，例如 /dev/ttyUSB0、/dev/ttyACM0、COM5。
+              为空时自动寻找常见 USB 串口。
         baudrate：波特率，必须和 STM32 程序一致，默认 115200
         timeout：串口超时时间
         close_cmd：夹爪闭合方向，默认 F
         open_cmd：夹爪张开方向，默认 B
 
         如果发现夹爪闭合和张开反了，只需要把 close_cmd 和 open_cmd 对调：
-        EndEffector(port="COM5", close_cmd="B", open_cmd="F")
+        EndEffector(port="/dev/ttyUSB0", close_cmd="B", open_cmd="F")
         """
 
-        self.port = port
+        self.port = port or auto_detect_port()
         self.baudrate = baudrate
         self.timeout = timeout
 
         self.close_cmd = close_cmd
         self.open_cmd = open_cmd
 
-        self.ser = serial.Serial(
-            port=self.port,
-            baudrate=self.baudrate,
-            timeout=self.timeout,
-        )
+        try:
+            self.ser = serial.Serial(
+                port=self.port,
+                baudrate=self.baudrate,
+                timeout=self.timeout,
+            )
+        except serial.SerialException as exc:
+            raise RuntimeError(
+                f"无法打开串口 {self.port}: {exc}\n"
+                "检查：1) 设备是否存在 2) 用户是否在 dialout 组 3) 串口是否被 Arduino IDE/串口助手占用。"
+            ) from exc
 
         # 等待 STM32 串口稳定
         time.sleep(2)
@@ -65,6 +138,7 @@ class EndEffector:
         self.ser.write(cmd.encode("utf-8"))
         self.ser.flush()
         time.sleep(delay)
+        print(f"sent {cmd!r} -> {self.port}")
 
     # =========================
     # 基础电机控制
@@ -216,14 +290,39 @@ class EndEffector:
 
 
 if __name__ == "__main__":
-    """
-    单独测试用：
-    运行这个文件后，可以手动输入 F/B/S/G/R/I 测试末端
-    """
+    parser = argparse.ArgumentParser(description="STM32 末端执行器串口测试")
+    parser.add_argument("--list", action="store_true", help="列出检测到的串口后退出")
+    parser.add_argument("--port", default="", help="串口，例如 /dev/ttyUSB0、/dev/ttyACM0；为空时自动检测")
+    parser.add_argument("--baudrate", type=int, default=DEFAULT_BAUDRATE)
+    parser.add_argument("--timeout", type=float, default=DEFAULT_TIMEOUT)
+    parser.add_argument("--close-cmd", default="F", choices=["F", "B"], help="夹爪闭合方向")
+    parser.add_argument("--open-cmd", default="B", choices=["F", "B"], help="夹爪张开方向")
+    parser.add_argument("--cmd", default="", help="发送单条命令后退出：F/B/S/G/R/I/C/O/A/X")
+    parser.add_argument("--run-time", type=float, default=0.25, help="C/O 测试时电机运行秒数，默认短脉冲")
+    parser.add_argument("--unsafe", action="store_true", help="允许 F/B/G/A/X 这类可能持续动作的命令")
+    args = parser.parse_args()
 
-    end = EndEffector(port="COM5", baudrate=115200)
+    ports = list_serial_ports()
+    if args.list:
+        if ports:
+            print("检测到串口：")
+            for port in ports:
+                target = os.path.realpath(port) if os.path.islink(port) else ""
+                print(f"  {port}" + (f" -> {target}" if target else ""))
+        else:
+            print("没有检测到 /dev/ttyUSB* 或 /dev/ttyACM*。请先插上 STM32/USB-TTL。")
+        sys.exit(0)
+
+    end = EndEffector(
+        port=args.port or None,
+        baudrate=args.baudrate,
+        timeout=args.timeout,
+        close_cmd=args.close_cmd,
+        open_cmd=args.open_cmd,
+    )
 
     print("末端执行器测试程序")
+    print(f"串口：{end.port}，波特率：{end.baudrate}")
     print("F：电机正转")
     print("B：电机反转")
     print("S：电机停止")
@@ -237,8 +336,38 @@ if __name__ == "__main__":
     print("Q：退出程序")
 
     try:
+        if args.cmd:
+            cmd = args.cmd.strip().upper()
+            if cmd in UNSAFE_COMMANDS and not args.unsafe:
+                raise SystemExit(
+                    f"{cmd} 可能触发持续动作。确认安全后加 --unsafe，"
+                    "或先用 S/I/C/O/R 这类更安全的命令。"
+                )
+            if cmd in ["F", "B", "S", "G", "R", "I"]:
+                end.send_cmd(cmd)
+            elif cmd == "C":
+                end.gripper_close(run_time=args.run_time)
+            elif cmd == "O":
+                end.gripper_open(run_time=args.run_time)
+            elif cmd == "A":
+                end.grab_by_suction_and_gripper(
+                    suction_wait=0.5,
+                    close_time=args.run_time,
+                )
+            elif cmd == "X":
+                end.release_all(
+                    open_time=args.run_time,
+                    valve_wait=0.4,
+                )
+            else:
+                raise SystemExit(f"无效 --cmd: {cmd}")
+            sys.exit(0)
+
         while True:
             cmd = input("请输入指令：").strip().upper()
+            if cmd in UNSAFE_COMMANDS and not args.unsafe:
+                print(f"{cmd} 已拦截：可能触发持续动作。确认安全后用 --unsafe 重新启动。")
+                continue
 
             if cmd == "Q":
                 end.idle()
@@ -248,20 +377,20 @@ if __name__ == "__main__":
                 end.send_cmd(cmd)
 
             elif cmd == "C":
-                end.gripper_close(run_time=0.8)
+                end.gripper_close(run_time=args.run_time)
 
             elif cmd == "O":
-                end.gripper_open(run_time=0.8)
+                end.gripper_open(run_time=args.run_time)
 
             elif cmd == "A":
                 end.grab_by_suction_and_gripper(
                     suction_wait=0.5,
-                    close_time=0.8,
+                    close_time=args.run_time,
                 )
 
             elif cmd == "X":
                 end.release_all(
-                    open_time=0.8,
+                    open_time=args.run_time,
                     valve_wait=0.4,
                 )
 

@@ -1,0 +1,93 @@
+board:
+  cols: 8
+  rows: 6
+  square_size_m: 0.025
+
+paths:
+  calibration_left_dir: data/calibration/left
+  calibration_right_dir: data/calibration/right
+  runtime_left_dir: data/runtime/left
+  runtime_right_dir: data/runtime/right
+  output_dir: data/outputs
+
+calibration:
+  model: pinhole
+  use_find_corners_sb: true
+  subpix_window: 11
+  min_pairs: 12
+  rectify_alpha: 1.0
+  use_rational_model: false
+  stereo_fix_intrinsics: false
+  fixed_intrinsics: false
+  expected_image_width: 1280
+  expected_image_height: 720
+  expected_baseline_m: 0.065
+  filter:
+    enabled: false
+    min_laplacian_var: 80.0
+    min_board_area_ratio: 0.025
+    max_board_area_ratio: 0.70
+    min_border_margin_ratio: 0.03
+    min_pose_delta: 0.02
+    baseline_refine:
+      enabled: true
+      max_iterations: 8
+      min_improvement: 0.03
+      stereo_rms_weight: 0.35
+      baseline_error_weight: 1.0
+
+matcher:
+  min_disparity: 0
+  num_disparities: 128
+  block_size: 5
+  p1_scale: 8
+  p2_scale: 32
+  disp12_max_diff: 1
+  uniqueness_ratio: 10
+  speckle_window_size: 100
+  speckle_range: 2
+  pre_filter_cap: 31
+  mode: sgbm_3way
+  wls_lambda: 8000.0
+  wls_sigma: 1.5
+
+preprocessing:
+  brightness_balance:
+    enabled: true
+    mode: pair_mean
+    min_scale: 0.45
+    max_scale: 1.8
+
+runtime:
+  source_mode: combined
+  combined_camera_id: 4
+  left_camera_id: 0
+  right_camera_id: 1
+  camera_backend: auto
+  fourcc: MJPG
+  camera_controls:
+    enabled: true
+    auto_exposure: 1
+    exposure_time_absolute: 120
+    gain: 0
+    brightness: 0
+    contrast: 32
+    white_balance_automatic: 0
+    white_balance_temperature: 4600
+    backlight_compensation: 0
+  split_layout: left_right
+  frame_width: 2560
+  frame_height: 720
+  fps: 30
+  save_extension: png
+
+capture:
+  interval_seconds: 5.0
+  target_pairs: 36
+  warmup_frames: 15
+  detect_board_before_save: true
+  show_corner_preview: true
+  detect_every_n_frames: 3
+  detect_max_width: 960
+  preview_scale: 0.5
+  settle_before_save_ms: 200

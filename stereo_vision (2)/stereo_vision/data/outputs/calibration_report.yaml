@@ -1,0 +1,24 @@
+model: pinhole
+valid_pair_count: 33
+rejected_pair_count: 1
+left_rms: 0.16611880876014082
+right_rms: 0.17910094517033096
+stereo_rms: 0.34315087467613176
+baseline_m: 0.06455155774717454
+expected_baseline_m: 0.065
+baseline_error_m: -0.00044844225282546224
+image_width: 1280
+image_height: 720
+rectify_alpha_for_generated_maps: 0.2
+roi1:
+- 64
+- 0
+- 1216
+- 649
+roi2:
+- 45
+- 0
+- 1235
+- 673
+source_note: Generated locally from the project handoff docs because the original
+  output directory was not present in this checkout.
